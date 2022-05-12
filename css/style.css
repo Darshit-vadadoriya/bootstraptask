@@ -1,0 +1,88 @@
+/* Navigation bar */
+/* nav ul li
+ {
+ 	
+
+
+
+
+nasdhwdgffbfwevfw
+ 	display: inline-block;
+ 	line-height: 80px;	
+ 	padding: 10px 18px;
+ }   */
+
+/* navigation */
+.navbar
+{
+    border-radius: 6px;
+}
+.navbar-nav .nav-item
+{
+    font-weight: 700;
+}
+
+
+/* main section */
+.imgs
+{
+    width: 100%;
+    background-size:cover; 
+     
+}
+
+div .row
+{
+    justify-content: space-between;
+}
+
+/* Gallery */
+img .img-thumbnail
+{
+    margin: 10px;
+}
+
+/* login form */
+h1
+{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+/* contact page */
+
+textarea{
+height:120px;
+}
+h2
+{
+    margin-bottom: 15px;
+    color: #4376ff;
+}
+div.form-group .btn{
+    margin-top: 10px;
+    width:20%;
+    font-size: large;
+}
+
+@media(max-width:574px)
+{
+  div .row{
+   margin:0px;
+  }
+}
+@media(max-width:466px)
+{
+  .head1 a
+ {
+     padding: 10px;
+ }
+}
+@media(min-width:730px)
+{
+ .contactlogo
+ {
+  width:50%
+ }
+}
