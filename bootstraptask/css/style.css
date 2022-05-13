@@ -185,6 +185,42 @@ footer div ul li a svg
     margin-top: 5px;
 }
 
+/* Game develpment page */
+
+.row .content
+{
+    border-radius: 15px;
+ 
+}
+.content h3{
+    text-align: center;
+    font-size: 40px;
+}
+.content p
+{
+    padding: 2px;
+    font-size: 22px;
+}
+.content
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gameimg .gameimg-3d
+{
+    padding-left: 20px;
+}
+.gameimg{
+    transition: all 1.5s;
+  
+}
+.gameimg:hover
+{
+    /* transform: scale(1.1); */
+    transform: rotateY(150deg);
+ }
+
+
 /* All media query */
 
 @media(max-width:574px)
@@ -199,6 +235,11 @@ footer div ul li a svg
  {
      padding: 10px;
  }
+ .gameimg .gameimg-vr img
+ {
+     width: 50px;
+
+ }
 }
 @media(min-width:730px)
 {
@@ -207,4 +248,3 @@ footer div ul li a svg
   width:50%
  }
 }
-@media(min-width:)
