@@ -40,13 +40,17 @@ a#dropdownbtn
       font-weight: 600;
 }
 
-/* mobile app page */
+/* mobile app development */
 img.icon
 {
     width: 250px;
     height: 250px;
    margin-left: 60px;
    margin-top: 100px;
+}
+.image-services
+{
+    position: relative;
 }
 
 /* card image hover zoom */
@@ -71,14 +75,14 @@ img.icon
         position: absolute;
        
         width: 100%;
-        height: 100%;
+        height: 80%;
     
 }
 .imgs
 {
     background:url(../images/2.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     background-attachment: fixed;
 }
 .imgs p{
